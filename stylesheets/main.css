@@ -10,6 +10,15 @@ h1 {
   font-weight: 100%;
 }
 
+h2 {
+  color: black;
+}
+
+h3 {
+  font-size: 70%;
+  font-weight: 30%;
+}
+
 #header {
   padding: 0%;
   margin: 0%;
@@ -33,6 +42,23 @@ h1 {
 }
 
 
+#menu {
+  width: 100%;
+  height: auto;
+  padding: 1%;
+  background-color: #082F61;
+  border-top:  #DAE2ED solid 1px;
+  border-bottom:  #DAE2ED solid 1px;
+  color: #DAE2ED;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#menu span {
+  mar
+}
+
 
 
 #main {
@@ -52,7 +78,11 @@ h1 {
 
 .main_img {
   width: 100%;
-  height: auto;
+  overflow: hidden;
+  display: block;
+  height: 40%;
+  clip: auto;
+  object-fit: cover;
   padding: 0%;
   margin: 0%;
 }
@@ -70,12 +100,12 @@ h1 {
 
 #best {
   width: 100%;
-  height: 10%;
+  height: auto;
   padding-top: 3%;
   padding-bottom: .5%;
 
   background-color: #DAE2ED;
-  color: black;
+  /* color: black; */
 
   display: flex;
   flex-direction: row;
@@ -85,7 +115,7 @@ h1 {
 #best span {
   width: 28%;
   padding: 0%;
-  margin: 0%;
+  margin: 2%;
   font-size: 110%;
   font-weight: 100%;
 }
@@ -94,7 +124,9 @@ h1 {
   width:100%;
   overflow: hidden;
   /* position: relative; */
+  height: 100px;
   clip: auto;
+
 }
 
 
