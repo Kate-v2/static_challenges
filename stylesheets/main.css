@@ -1,0 +1,11 @@
+body {
+  background-color: black;
+}
+
+#main {
+  background-color: #1D1D1D;
+  color: white;
+
+  font-family: Arial, Sans-serif;
+  font-size: 30%;
+}
