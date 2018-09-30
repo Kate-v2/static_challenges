@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  font-size: 130%;
+  font-size: 120%;
   font-weight: bold;
 }
 
@@ -16,8 +16,8 @@ h2 {
 }
 
 h3 {
-  font-size: 70%;
-  font-weight: 90%;
+  font-size: 60%;
+  font-weight: 100;
 }
 
 /* --- Header ---  */
@@ -27,6 +27,7 @@ h3 {
   margin: 0%;
   height: 5%;
   overflow: hidden;
+  background-color: #1D1D1D;
   color: #DAE2ED;
 }
 
@@ -73,8 +74,12 @@ h3 {
 }
 
 .main_label {
-  position: relative;
-  top: 5%;
+  display: inline;
+  position: absolute;
+  /* position: relative; */
+  /* top: 5%;
+  left: 2%; */
+  top: 11%;
   left: 2%;
 }
 
@@ -82,7 +87,7 @@ h3 {
   width: 100%;
   overflow: hidden;
   display: block;
-  height: 40%;
+  height: 36%;
   clip: auto;
   object-fit: cover;
   padding: 0%;
@@ -92,7 +97,8 @@ h3 {
 .main_text   {
   padding: 1.5%;
   font-size: 40%;
-  font-weight: lighter;
+  color: #DAE2ED;
+  font-weight: 100;
 }
 
 .main_text p {
@@ -117,15 +123,19 @@ h3 {
 #best span {
   width: 30%;
   padding-bottom: 1%;
-  font-size: 110%;
+  font-size: 100%;
   font-weight: 100%;
+}
+
+#best h2 {
+  margin-bottom: 1.5%;
 }
 
 #best img {
   width:100%;
   overflow: hidden;
   display: block;
-  height: 14%;
+  height: 13%;
   clip: auto;
   object-fit: cover;
 }
@@ -139,5 +149,6 @@ h3 {
   height: auto;
   background-color: #1D1D1D;
   font-size: 10%;
-  font-weight: 50%;
+  font-weight: 100;
+  color: #DAE2ED;
 }
