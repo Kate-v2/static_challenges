@@ -5,18 +5,115 @@ body {
   font-family: Arial, Sans-serif;
 }
 
+h1 {
+  font-size: 150%;
+  font-weight: 100%;
+}
+
+#header {
+  padding: 0%;
+  margin: 0%;
+  height: 5%;
+  overflow: hidden;
+  color: #DAE2ED;
+}
+
+#login {
+  background-color: #598B1B;
+  float: right;
+  height: 100%;
+  padding: 2%;
+  text-align: center;
+  font-size: 50%;
+}
+
+#title {
+  float: left;
+  padding: 1%;
+}
+
+
+
 
 #main {
+  width: 100%;
   height: 80%;
+  margin: 0%;
+  padding: 0%;
   background-color: #1D1D1D;
+}
+
+.main_text   {
   font-size: 50%;
   font-weight: 50%;
 }
 
+#main < img {
+  padding: 0%;
+  margin: 0%;
+}
+
 .main_label {
-  position: absolute;
-  top: 2%;
+  position: relative;
+  top: 5%;
   left: 2%;
-  font-size: 250%;
+  /* font-size: 250%; */
+  /* font-weight: 100%; */
+}
+
+#best {
+  width: 100%;
+  height: 10%;
+  padding-top: 3%;
+  padding-bottom: .5%;
+
+  background-color: #DAE2ED;
+  color: black;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#best < span {
+  width: 28%;
+  padding: 0%;
+  margin: 0%;
+  font-size: 110%;
   font-weight: 100%;
+}
+
+#best < img {
+  width:100%;
+  overflow: hidden;
+  /* position: relative; */
+  clip: auto;
+}
+
+
+
+/* #first {
+  position: relative;
+  left: 2%;
+  top: 50%;
+} */
+
+/* .triplet {
+  left: 4%;
+  margin-left: 4%;
+  align-self: bottom;
+  position: relative;
+  width: 28%;
+  overflow: hidden;
+} */
+
+
+
+#footer {
+  padding: 2%;
+  width: 96%;
+  height: auto;
+  background-color: #1D1D1D;
+  font-size: 10%;
+  font-weight: 50%;
 }
