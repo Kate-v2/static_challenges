@@ -6,18 +6,21 @@ body {
 }
 
 h1 {
-  font-size: 150%;
-  font-weight: 100%;
+  font-size: 130%;
+  font-weight: bold;
 }
 
 h2 {
   color: black;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 70%;
-  font-weight: 30%;
+  font-weight: 90%;
 }
+
+/* --- Header ---  */
 
 #header {
   padding: 0%;
@@ -42,6 +45,8 @@ h3 {
 }
 
 
+/* --- Menu ---  */
+
 #menu {
   width: 100%;
   height: auto;
@@ -55,11 +60,8 @@ h3 {
   justify-content: space-evenly;
 }
 
-#menu span {
-  mar
-}
 
-
+/* --- Main ---  */
 
 #main {
   width: 100%;
@@ -88,34 +90,33 @@ h3 {
 }
 
 .main_text   {
-  padding: 2%;
-  font-size: 50%;
-  font-weight: 50%;
+  padding: 1.5%;
+  font-size: 40%;
+  font-weight: lighter;
 }
 
 .main_text p {
-  margin: 1%;
+  margin: .75%;
 }
 
+
+/* --- Best ---  */
 
 #best {
   width: 100%;
   height: auto;
   padding-top: 3%;
   padding-bottom: .5%;
-
   background-color: #DAE2ED;
-  /* color: black; */
 
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 #best span {
-  width: 28%;
-  padding: 0%;
-  margin: 2%;
+  width: 30%;
+  padding-bottom: 1%;
   font-size: 110%;
   font-weight: 100%;
 }
@@ -123,30 +124,14 @@ h3 {
 #best img {
   width:100%;
   overflow: hidden;
-  /* position: relative; */
-  height: 100px;
+  display: block;
+  height: 14%;
   clip: auto;
-
+  object-fit: cover;
 }
 
 
-
-/* #first {
-  position: relative;
-  left: 2%;
-  top: 50%;
-} */
-
-/* .triplet {
-  left: 4%;
-  margin-left: 4%;
-  align-self: bottom;
-  position: relative;
-  width: 28%;
-  overflow: hidden;
-} */
-
-
+/* --- Footer ---  */
 
 #footer {
   padding: 2%;
