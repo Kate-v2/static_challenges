@@ -1,11 +1,22 @@
 body {
   background-color: black;
+
+  color: white;
+  font-family: Arial, Sans-serif;
 }
 
-#main {
-  background-color: #1D1D1D;
-  color: white;
 
-  font-family: Arial, Sans-serif;
-  font-size: 30%;
+#main {
+  height: 80%;
+  background-color: #1D1D1D;
+  font-size: 50%;
+  font-weight: 50%;
+}
+
+.main_label {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  font-size: 250%;
+  font-weight: 100%;
 }
